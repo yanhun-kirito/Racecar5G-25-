@@ -1,0 +1,24 @@
+# Local editor files and original archive
+/.vscode/
+/*.zip
+
+# Local build directories and generated CMake files
+build/
+build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+/Smartcar_5g-main(chai)/Makefile
+/Smartcar_5g-main(chai)/main
+/Smartcar_5g-main(chai)/demo
+*.o
+*.so
+*.so.*
+
+# Python caches, environments, and captured images
+__pycache__/
+*.py[cod]
+.venv/
+captured_frames/
+test_photo/
+output_image.jpg

@@ -1,0 +1,10 @@
+每次更改代码需要输入如下指令编译
+g++ -pthread demo.cpp `pkg-config --cflags --libs opencv` -lpigpio -o demo
+
+再输入以下指令运行
+sudo ./demo
+
+每次Ctrl+c中断代码后要输入reset刷新中端，不然输入的东西不可见
+
+（必须在源码文件路径下）
+
